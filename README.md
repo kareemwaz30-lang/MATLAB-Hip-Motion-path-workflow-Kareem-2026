@@ -6,7 +6,7 @@ This repository contains the MATLAB workflow and processed data used to analyse 
 
 1. `marker_names.m` lists the markers contained in a selected C3D file and can be used to inspect marker naming before extraction.
 2. `c3d_excel_hip_extraction.m` extracts left- and right-hip angles from a single-participant C3D file.
-3. `c3d_excel_two_subjects.m` performs the same extraction for the two-participant Salsa Cubana trial.
+3. `c3d_excel_two_subjects.m` performs the same extraction for the two-participant (Salsa Cubana trial).
 4. `resampler.m` selects the analysed interval and resamples the hip-angle data.
 5. `motion_path_complete_sample.m` generates the 20-point femoral-head motion paths and calculates sliding distance, aspect ratio, angular velocity and angular acceleration.
 6. `plot_velocity_acceleration_from_motion_output.m` creates report-ready hip-angle, angular-velocity and angular-acceleration plots from a motion-path results workbook.
