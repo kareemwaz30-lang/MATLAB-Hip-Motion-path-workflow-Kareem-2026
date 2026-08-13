@@ -1,6 +1,6 @@
 # Activity-Specific Hip Motion-Path Workflow and Dataset
 
-This repository contains the MATLAB workflow and processed data used to analyse 14 activity trials: four out-of-water simulated swimming strokes and ten dance activities. Layton/Stewart and independent CMU walking validation files are not included in the activity folders.
+This repository contains the MATLAB workflow and processed data used to analyse 14 activity trials: four out-of-water simulated swimming strokes and ten dance activities. 
 
 ## Workflow
 
