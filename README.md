@@ -23,7 +23,7 @@ This repository contains the MATLAB workflow and processed data used to analyse 
 Salsa Cubana contains corresponding female and male workbooks because the C3D file contains two partnered participants. 
 ## Activity Folders
 
-| Folder | Activity | CMU trial |
+| Folder | Activity | CMU subject_trial |
 |---|---|---|
 | `01_Swimming_Breaststroke` | Breaststroke | 125_01 |
 | `02_Swimming_Backstroke` | Backstroke | 126_02 |
