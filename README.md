@@ -20,8 +20,7 @@ This repository contains the MATLAB workflow and processed data used to analyse 
 - `sampled_hip_angles_left.xlsx` and `sampled_hip_angles_right.xlsx`: selected and resampled hip-angle data, including the timing metadata used by the motion-path program.
 - `motion_path_results_left.xlsx` and `motion_path_results_right.xlsx`: final frame-based dynamic results and point-specific motion-path metrics.
 
-Salsa Cubana contains corresponding female and male workbooks because the C3D file contains two partnered participants. Marker-quality and trajectory-completeness reports were excluded to keep the dataset concise.
-
+Salsa Cubana contains corresponding female and male workbooks because the C3D file contains two partnered participants. 
 ## Activity Folders
 
 | Folder | Activity | CMU trial |
