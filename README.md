@@ -30,7 +30,7 @@ Salsa Cubana contains corresponding female and male workbooks because the C3D fi
 | `03_Swimming_Butterfly` | Butterfly | 126_06 |
 | `04_Swimming_Freestyle` | Freestyle | 126_12 |
 | `05_Social_Dance_Lambada` | Lambada | 55_02 |
-| `06_Social_Dance_Salsa_Cubana` | Salsa Cubana | 60_01 |
+| `06_Social_Dance_Salsa_Cubana` | Salsa Cubana | 60_01, 61_01 |
 | `07_Social_Dance_Whirl` | Whirl | 55_01 |
 | `08_Ballet_Combination_1` | Rond de jambe en l'air, jete and turn | 05_08 |
 | `09_Ballet_Combination_2` | Coupe dessous | 05_16 |
