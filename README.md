@@ -4,14 +4,14 @@ This repository contains the MATLAB workflow and processed data used to analyse 
 
 ## Workflow
 
-1. `marker_names.m` lists the markers contained in a selected C3D file and can be used to inspect marker naming before extraction.
-2. `c3d_excel_hip_extraction.m` extracts left- and right-hip angles from a single-participant C3D file.
+1. `Run marker_names.m and select the C3D file to inspect its available marker names. This step is optional but helps confirm that the required pelvis and lower-limb markers are present.
+2. `Run c3d_excel_hip_extraction.m for a single participant, or c3d_excel_two_subjects.m for Salsa Cubana. Select the C3D file when prompted. The script generates separate left- and right-hip Excel workbooks containing flexion/extension, abduction/adduction and internal/external rotation.
 3. `c3d_excel_two_subjects.m` performs the same extraction for the two-participant (Salsa Cubana trial).
-4. `resampler.m` selects the analysed interval and resamples the hip-angle data.
-5. `motion_path_complete_sample.m` generates the 20-point femoral-head motion paths and calculates sliding distance, aspect ratio, angular velocity and angular acceleration.
-6. `plot_velocity_acceleration_from_motion_output.m` creates report-ready hip-angle, angular-velocity and angular-acceleration plots from a motion-path results workbook.
+4. `Run resampler.m and select one extracted hip-angle workbook. Enter the original frame rate or time step, choose continuous or repetitive processing, select the analyzed interval and specify the number of output points. The script generates a resampled workbook containing the three hip rotations and timing metadata. Repeat this step for each hip.
+5. `Run motion_path_complete_sample.m and select a resampled hip-angle workbook. The script generates the 20-point femoral-head motion paths and exports FrameData and PointMetrics sheets containing the calculated motion-path and dynamic metrics. Repeat this step for each hip.
+6. `Optionally, run plot_velocity_acceleration_from_motion_output.m and select the resulting motion-path workbook to generate hip-angle, angular-velocity and angular-acceleration plots.
 
-`motion_path_complete_sample.m` requires `RotateXYV.m`, Dr Robert Layton's original rotation helper function. C3D extraction also requires `ezc3dRead` to be available on the MATLAB path.
+`motion_path_complete_sample.m` requires `RotateXYV.m`, Dr Robert Layton's original rotation helper function. Before running the workflow, place RotateXYV.m in the same folder as the scripts or on the MATLAB path. C3D extraction also requires `ezc3dRead` to be available on the MATLAB path.
 
 ## Files in Each Activity Folder
 
